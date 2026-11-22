@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#EFF6FF" />
+    </linearGradient>
+    <linearGradient id="primaryGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#4F46E5" />
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;200%;100%" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+    <radialGradient id="glowLight" cx="80%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="gridLight" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#E2E8F0" stroke-width="0.8" />
+      <circle cx="0" cy="0" r="1" fill="#4F46E5" fill-opacity="0.3" />
+    </pattern>
+    <filter id="shadowLight" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#64748B" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-l { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 38px; fill: url(#primaryGradLight); }
+    .subtitle-l { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 19px; fill: #0F172A; }
+    .desc-l { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; fill: #475569; }
+    .badge-text-l { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 12px; fill: #059669; }
+    .tag-text-l { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 11px; fill: #0284C7; }
+    .code-accent-l { font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13px; fill: #6366F1; fill-opacity: 0.45; }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#bgGradLight)" stroke="#CBD5E1" stroke-width="1.5" filter="url(#shadowLight)" />
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#gridLight)" />
+  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#glowLight)" />
+
+  <!-- Code Motif Accents in background -->
+  <text x="730" y="50" class="code-accent-l">&lt;dev/&gt;</text>
+  <text x="780" y="80" class="code-accent-l">{ stack: "MEAN" }</text>
+  <text x="710" y="190" class="code-accent-l">const tier = "Africa-Top3";</text>
+  <path d="M 660 120 L 700 80 M 740 80 L 780 120 M 700 160 L 660 120 M 740 160 L 780 120" stroke="#4F46E5" stroke-opacity="0.12" stroke-width="2" fill="none" />
+
+  <!-- Content -->
+  <g transform="translate(42, 36)">
+    <!-- Status Pill -->
+    <rect x="0" y="0" width="310" height="28" rx="14" fill="#F1F5F9" stroke="#059669" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="16" cy="14" r="4.5" fill="#059669">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="30" y="18" class="badge-text-l">Available for High-Impact Software Engineering</text>
+
+    <!-- Main Title -->
+    <text x="0" y="74" class="title-l">Mohamed Fares</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="106" class="subtitle-l">Full Stack Developer <tspan fill="#4F46E5">•</tspan> MEAN Stack <tspan fill="#4F46E5">•</tspan> Co-Founder @ VulnCraft</text>
+
+    <!-- Description -->
+    <text x="0" y="134" class="desc-l">Building scalable, resilient enterprise web applications &amp; automated cybersecurity tooling.</text>
+    <text x="0" y="154" class="desc-l">Based in Giza, Egypt <tspan fill="#4F46E5">•</tspan> Ranked 3rd in Africa @ Huawei ICT Competition 2025</text>
+
+    <!-- Interactive tags -->
+    <g transform="translate(0, 168)">
+      <rect x="0" y="0" width="100" height="22" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+      <text x="50" y="15" text-anchor="middle" class="tag-text-l">Angular 20</text>
+
+      <rect x="110" y="0" width="90" height="22" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+      <text x="155" y="15" text-anchor="middle" class="tag-text-l">Node.js</text>
+
+      <rect x="210" y="0" width="95" height="22" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+      <text x="257" y="15" text-anchor="middle" class="tag-text-l">TypeScript</text>
+
+      <rect x="315" y="0" width="90" height="22" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+      <text x="360" y="15" text-anchor="middle" class="tag-text-l">MongoDB</text>
+
+      <rect x="415" y="0" width="105" height="22" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+      <text x="467" y="15" text-anchor="middle" class="tag-text-l">FastAPI / Py</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+  <defs>
+    <filter id="projShadow_light" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Project Clinic Hub -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="430" height="222" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" filter="url(#projShadow_light)" />
+    
+    <!-- Top accent border line -->
+    <path d="M 0 14 Q 0 0 14 0 L 416 0 Q 430 0 430 14 L 430 18 L 0 18 Z" fill="#10B981" />
+    
+    <!-- Number &amp; Type -->
+    <text x="20" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="12" fill="#10B981">01</text>
+    <text x="44" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="11.5" fill="#64748B">FULL STACK HEALTHCARE PLATFORM</text>
+    
+    <!-- Name -->
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="19" fill="#0F172A">Clinic Hub</text>
+    
+    <!-- Impact Description (wrapped) -->
+    <text x="20" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B">Multi-platform clinic management with automated pati</text>
+    <text x="20" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B">ent WhatsApp scheduling &amp; n8n workflows.</text>
+    <text x="20" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B"></text>
+
+    <!-- Stack Tags -->
+    <g transform="translate(20, 148)">
+      <rect x="0" y="0" width="86" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="43" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#10B981">Angular 20</text>
+      <rect x="92" y="0" width="86" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="135" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#10B981">Express.js</text>
+      <rect x="184" y="0" width="86" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="227" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#10B981">PostgreSQL</text>
+      <rect x="276" y="0" width="72" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="312" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#10B981">Supabase</text>
+      <rect x="0" y="24" width="100" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="50" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#10B981">WhatsApp API</text>
+      <rect x="106" y="24" width="37" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="124" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#10B981">n8n</text>
+    </g>
+
+    <!-- Status Footer -->
+    <g transform="translate(20, 204)">
+      <circle cx="5" cy="-4" r="3.5" fill="#8B949E" />
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="11" fill="#64748B">🔒 Private, available on request</text>
+    </g>
+  </g>
+  <!-- Project VulnCraft Platform -->
+  <g transform="translate(460, 10)">
+    <rect x="0" y="0" width="430" height="222" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" filter="url(#projShadow_light)" />
+    
+    <!-- Top accent border line -->
+    <path d="M 0 14 Q 0 0 14 0 L 416 0 Q 430 0 430 14 L 430 18 L 0 18 Z" fill="#DD0031" />
+    
+    <!-- Number &amp; Type -->
+    <text x="20" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="12" fill="#DD0031">02</text>
+    <text x="44" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="11.5" fill="#64748B">CYBERSECURITY SCANNER SUITE</text>
+    
+    <!-- Name -->
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="19" fill="#0F172A">VulnCraft Platform</text>
+    
+    <!-- Impact Description (wrapped) -->
+    <text x="20" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B">Automated vulnerability assessment orchestrating Fas</text>
+    <text x="20" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B">tAPI bridges across 5+ specialized Python scanners.</text>
+    <text x="20" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B"></text>
+
+    <!-- Stack Tags -->
+    <g transform="translate(20, 148)">
+      <rect x="0" y="0" width="86" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="43" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#DD0031">Angular 20</text>
+      <rect x="92" y="0" width="65" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="124" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#DD0031">FastAPI</text>
+      <rect x="163" y="0" width="58" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="192" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#DD0031">Python</text>
+      <rect x="227" y="0" width="65" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="259" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#DD0031">MongoDB</text>
+      <rect x="0" y="24" width="107" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="53" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#DD0031">Cybersecurity</text>
+      <rect x="113" y="24" width="58" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="142" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#DD0031">Docker</text>
+    </g>
+
+    <!-- Status Footer -->
+    <g transform="translate(20, 204)">
+      <circle cx="5" cy="-4" r="3.5" fill="#8B949E" />
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="11" fill="#64748B">🔒 Private, available on request (vulncraft.software)</text>
+    </g>
+  </g>
+  <!-- Project Wasel Management -->
+  <g transform="translate(10, 244)">
+    <rect x="0" y="0" width="430" height="222" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" filter="url(#projShadow_light)" />
+    
+    <!-- Top accent border line -->
+    <path d="M 0 14 Q 0 0 14 0 L 416 0 Q 430 0 430 14 L 430 18 L 0 18 Z" fill="#6366F1" />
+    
+    <!-- Number &amp; Type -->
+    <text x="20" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="12" fill="#6366F1">03</text>
+    <text x="44" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="11.5" fill="#64748B">HYPERMARKET ENTERPRISE ERP</text>
+    
+    <!-- Name -->
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="19" fill="#0F172A">Wasel Management</text>
+    
+    <!-- Impact Description (wrapped) -->
+    <text x="20" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B">High-volume inventory platform handling 5,000+ SKU u</text>
+    <text x="20" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B">nits, 15+ nested categories &amp; aggregation pipelines.</text>
+    <text x="20" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B"></text>
+
+    <!-- Stack Tags -->
+    <g transform="translate(20, 148)">
+      <rect x="0" y="0" width="65" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="32" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#6366F1">Angular</text>
+      <rect x="71" y="0" width="65" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="103" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#6366F1">Node.js</text>
+      <rect x="142" y="0" width="156" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="220" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#6366F1">MongoDB Aggregations</text>
+      <rect x="304" y="0" width="86" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="347" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#6366F1">Express.js</text>
+      <rect x="0" y="24" width="72" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="36" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#6366F1">Tailwind</text>
+    </g>
+
+    <!-- Status Footer -->
+    <g transform="translate(20, 204)">
+      <circle cx="5" cy="-4" r="3.5" fill="#8B949E" />
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="11" fill="#64748B">🔒 Private, available on request</text>
+    </g>
+  </g>
+  <!-- Project DELMA Medical -->
+  <g transform="translate(460, 244)">
+    <rect x="0" y="0" width="430" height="222" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" filter="url(#projShadow_light)" />
+    
+    <!-- Top accent border line -->
+    <path d="M 0 14 Q 0 0 14 0 L 416 0 Q 430 0 430 14 L 430 18 L 0 18 Z" fill="#22D3EE" />
+    
+    <!-- Number &amp; Type -->
+    <text x="20" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="12" fill="#22D3EE">04</text>
+    <text x="44" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="11.5" fill="#64748B">B2B MEDICAL E-COMMERCE</text>
+    
+    <!-- Name -->
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="19" fill="#0F172A">DELMA Medical</text>
+    
+    <!-- Impact Description (wrapped) -->
+    <text x="20" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B">Comprehensive B2B medical supply procurement engine </text>
+    <text x="20" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B">with JWT auth, granular RBAC &amp; live order tracking.</text>
+    <text x="20" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12.5" fill="#64748B"></text>
+
+    <!-- Stack Tags -->
+    <g transform="translate(20, 148)">
+      <rect x="0" y="0" width="65" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="32" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#22D3EE">Angular</text>
+      <rect x="71" y="0" width="65" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="103" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#22D3EE">Node.js</text>
+      <rect x="142" y="0" width="86" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="185" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#22D3EE">JWT / RBAC</text>
+      <rect x="234" y="0" width="86" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="277" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#22D3EE">Express.js</text>
+      <rect x="0" y="24" width="65" height="20" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="32" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="10.5" fill="#22D3EE">MongoDB</text>
+    </g>
+
+    <!-- Status Footer -->
+    <g transform="translate(20, 204)">
+      <circle cx="5" cy="-4" r="3.5" fill="#8B949E" />
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="11" fill="#64748B">🔒 Private, available on request</text>
+    </g>
+  </g>
+</svg>

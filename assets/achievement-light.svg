@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="achieveGrad_light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+    <filter id="achieveShadow_light" x="-2%" y="-5%" width="104%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <rect x="2" y="2" width="896" height="126" rx="14" fill="url(#achieveGrad_light)" stroke="#E2E8F0" stroke-width="1.5" filter="url(#achieveShadow_light)" />
+
+  <!-- Accent bar left -->
+  <path d="M 4 16 Q 4 4 16 4 L 18 4 L 18 126 L 16 126 Q 4 126 4 114 Z" fill="#DD0031" />
+
+  <!-- Trophy Icon -->
+  <g transform="translate(36, 32)">
+    <circle cx="32" cy="32" r="30" fill="#D97706" fill-opacity="0.15" stroke="#D97706" stroke-width="1.5" />
+    <!-- SVG Trophy / Medal -->
+    <path d="M 22 18 L 42 18 L 42 28 C 42 34 38 40 32 40 C 26 40 22 34 22 28 Z" fill="#D97706" />
+    <path d="M 18 20 C 15 20 14 24 16 28 C 18 32 22 34 22 34" stroke="#D97706" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 46 20 C 49 20 50 24 48 28 C 46 32 42 34 42 34" stroke="#D97706" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 30 40 L 30 46 L 24 48 L 40 48 L 34 46 L 34 40" stroke="#D97706" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Achievement Details -->
+  <g transform="translate(115, 34)">
+    <rect x="0" y="0" width="135" height="20" rx="4" fill="#DD0031" fill-opacity="0.15" stroke="#DD0031" stroke-width="1" />
+    <text x="67" y="14" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11" fill="#DD0031">HUAWEI ICT 2025</text>
+
+    <text x="148" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="15" fill="#0F172A">🥉 3rd Place in Africa — Regional Finalist</text>
+
+    <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="16" fill="#0F172A">Co-Founder &amp; Engineering Lead @ VulnCraft</text>
+    <text x="0" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#64748B">Pioneering automated cybersecurity assessment tooling &amp; vulnerability scanners (<tspan fill="#22D3EE">vulncraft.software</tspan>)</text>
+  </g>
+
+  <!-- Huawei / Cybersecurity emblem right -->
+  <g transform="translate(770, 36)" opacity="0.8">
+    <rect x="0" y="0" width="95" height="58" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" />
+    <text x="47" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#0F172A">AFRICA</text>
+    <text x="47" y="45" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="16" fill="#D97706">TOP 3</text>
+  </g>
+</svg>
