@@ -15,11 +15,11 @@
     <td valign="middle">
       <h3>👋 Hi there, I'm Mohamed Fares</h3>
       <p>
-        I am a <strong>Full Stack Developer</strong> specializing in the <strong>MEAN Stack</strong> (MongoDB, Express.js, Angular 20, Node.js) based in <strong>Giza, Egypt</strong>. Passionate about building resilient web architectures, scalable enterprise ERP solutions, and developer tooling.
+        I am a <strong>Full Stack Developer</strong> specializing in the <strong>MEAN Stack</strong> (MongoDB, Express.js, Angular 20, Node.js) based in <strong>Giza, Egypt</strong>. Passionate about architecting resilient cloud systems, enterprise ERP solutions, and developer tooling.
       </p>
       <p>
         Co-Founder at <a href="https://vulncraft.software"><strong>VulnCraft</strong></a>, an early-stage cybersecurity organization — awarded <strong>3rd Place in Africa</strong> at the 2025 Huawei ICT Competition.<br>
-        BSc in Computer Science candidate at <strong>6 October University</strong> (graduating June 2026) and completed intensive MEAN Stack training at the <strong>National Telecommunication Institute (NTI)</strong>.
+        BSc in Computer Science candidate at <strong>6 October University</strong> (graduating June 2026) &amp; completed intensive MEAN Stack training at the <strong>National Telecommunication Institute (NTI)</strong>.
       </p>
     </td>
   </tr>
@@ -76,24 +76,13 @@
   - **Status:** *Private, available on request*
 
 ## 📈 Activity & Performance Metrics
-<table width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
-        <img alt="GitHub Performance &amp; Activity Metrics" src="assets/stats-dark.svg" width="100%">
-      </picture>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg">
-        <img alt="Most Used Languages &amp; Core Stack" src="assets/languages-dark.svg" width="100%">
-      </picture>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
+    <img alt="GitHub Performance &amp; Activity Metrics Dashboard" src="assets/stats-dark.svg" width="100%">
+  </picture>
+</p>
 
 ### 🐍 Contribution Activity
 <p align="center">
